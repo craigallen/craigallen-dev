@@ -32,7 +32,7 @@ export default function Post({ post, posts, preview }) {
             <article>
               <Head>
                 <title>
-                  {post.title} | Next.js Blog Example with {CMS_NAME}
+                  {post.title} | Craig Allen
                 </title>
                 <meta
                   property="og:image"
@@ -41,7 +41,6 @@ export default function Post({ post, posts, preview }) {
               </Head>
               <PostHeader
                 title={post.title}
-                coverImage={post.featuredImage?.node}
                 date={post.date}
                 author={post.author?.node}
                 categories={post.categories}
